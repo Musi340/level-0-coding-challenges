@@ -12,12 +12,16 @@ function vowelChecker(word)
 		newString += newWord[i];
 	}
     }
-    var uniqueString = newString[0];
+    var uniqueString = newString[0] + ", ";
 
     for (var j = 0; j < newString.length; j++)//removes dupilcate characters
     {
 	if (!uniqueString.includes(newString[j]))
+	{
 	    uniqueString += newString[j];
+	    uniqueString += ", ";
+	}
     }
-    console.log(uniqueString);
+    var returnString = "Vowels: " + uniqueString.slice(0,-2);
+    console.log(returnString);
 }
