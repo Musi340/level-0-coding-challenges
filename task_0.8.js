@@ -1,4 +1,3 @@
-//Converts number into hours and minutes
 function timeConverter(num1)
 {
     var theHours = Math.floor(num1 / 60);
