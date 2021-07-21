@@ -1,7 +1,6 @@
-//Returns the maximum number
 function maximum()
 {
-    var maxNum = arguments[0]; //sets the first argument as the max number
+    var maxNum = arguments[0];
 
     for(var i = 1; i < arguments.length; i++)
     {
