@@ -1,4 +1,3 @@
-//Area of a triangle
 function areaOfTriangle(num1,num2,num3)
 {
     var perimeter = (num1 + num2 + num3) * 0.5;
