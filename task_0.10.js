@@ -1,8 +1,7 @@
-//checks for common letters in two strings
 function compareStrings(string1,string2)
 {
     var newString = "";
-    for(var i = 0; i < string1.length; i++)//compares both strings for common letters
+    for(var i = 0; i < string1.length; i++)
     {
 	for(var j = 0; j < string2.length; j++)
 	{
