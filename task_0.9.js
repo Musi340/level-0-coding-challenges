@@ -1,10 +1,9 @@
-//checks for vowels in a string
 function vowelChecker(word)
 {
-    var newWord = word.toLowerCase();//converts argument to lowercase letters
+    var newWord = word.toLowerCase();
     var arr1 = ['a','e', 'i', 'o', 'u'];
     var newString = "";
-    for (var i = 0; i < newWord.length; i++)//checks for vowels
+    for (var i = 0; i < newWord.length; i++)
     {
 	for (var j = 0; j < arr1.length; j++)
 	{
