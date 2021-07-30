@@ -1,7 +1,7 @@
-function areaOfTriangle(num1,num2,num3)
+function areaOfTriangle(side1,side2,side3)
 {
-    var perimeter = (num1 + num2 + num3) * 0.5;
+    var perimeter = (side1 + side2 + side3) * 0.5;
     //Heron's formula
-    var area = Math.sqrt(perimeter*(perimeter-num1)*(perimeter-num2)*(perimeter-num3));
+    var area = Math.sqrt(perimeter*(perimeter-side1)*(perimeter-side2)*(perimeter-side3));
     return area;
 }
