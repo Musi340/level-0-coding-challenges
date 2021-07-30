@@ -1,9 +1,9 @@
-function celToFahrenheit(temp1)
+function celToFahrenheit(temperature1)
 {
-    return 32 + temp1 * 1.8;
+    return 32 + temperature1 * 1.8;
 }
 
-function fahrenheitToCel(temp2)
+function fahrenheitToCel(temperature2)
 {
-    return (temp2 - 32)/ 1.8;
+    return (temperature2 - 32)/ 1.8;
 }
